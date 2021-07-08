@@ -3,7 +3,7 @@
 		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/web-app_3_1.xsd"
 		 version="3.1">
 
-	<display-name>publicationshelper</display-name>
+	<display-name>wicketstart</display-name>
 
 	<!--
 		There are three means to configure Wickets configuration mode and they
