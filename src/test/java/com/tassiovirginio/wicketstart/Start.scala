@@ -60,6 +60,7 @@ object Start {
         https.setPort(8443)
         https.setIdleTimeout(500000)
         server.addConnector(https)
+
         System.out.println("SSL access to the examples has been enabled on port 8443")
         System.out.println("You can access the application using SSL on https://localhost:8443")
         System.out.println()
@@ -84,11 +85,11 @@ object Start {
       server.addBean(mBeanContainer)
 
       try {
-        server.start()
-        server.join()
+        server.start
+        server.join
       } catch {
         case e: Exception =>
-          e.printStackTrace()
+          e.printStackTrace
           System.exit(100)
       }
     }

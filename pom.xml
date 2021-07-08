@@ -38,6 +38,7 @@
 			<artifactId>wicket-core</artifactId>
 			<version>${wicket.version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-extensions</artifactId>
@@ -106,6 +107,21 @@
 			<artifactId>wicket-bootstrap-core</artifactId>
 			<version>5.0.5</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.wicketstuff.scala</groupId>
+			<artifactId>wicketstuff-scala</artifactId>
+			<version>${wicket.version}</version>
+		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>org.wicketstuff.scala</groupId>-->
+<!--			<artifactId>scala-extensions-parent</artifactId>-->
+<!--			<version>${wicket.version}</version>-->
+<!--			<type>pom</type>-->
+<!--		</dependency>-->
+
+
 
 
 	</dependencies>

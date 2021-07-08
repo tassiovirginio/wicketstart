@@ -13,7 +13,8 @@ class TestHomePage {
 
   @BeforeEach def setUp() = tester = new WicketTester(new WicketApplication)
 
-  @Test def homepageRendersSuccessfully() = { //start and render the test page
+  @Test def homepageRendersSuccessfully() = {
+    //start and render the test page
     tester.startPage(classOf[HomePage])
     //assert rendered page class
     tester.assertRenderedPage(classOf[HomePage])
